@@ -17,6 +17,11 @@
 		B71DDA6A206F3F160015699E /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71DDA69206F3F160015699E /* DiscoverViewController.swift */; };
 		B71DDA6C206F3F480015699E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71DDA6B206F3F480015699E /* HomeViewController.swift */; };
 		B71DDA72206F589B0015699E /* MainVCSettings.json in Resources */ = {isa = PBXBuildFile; fileRef = B71DDA71206F589B0015699E /* MainVCSettings.json */; };
+		B71DDA7C206F701E0015699E /* HomeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B71DDA7B206F701E0015699E /* HomeViewController.storyboard */; };
+		B71DDA7E206F70410015699E /* MessageViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B71DDA7D206F70410015699E /* MessageViewController.storyboard */; };
+		B71DDA80206F704B0015699E /* ProfileViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B71DDA7F206F704B0015699E /* ProfileViewController.storyboard */; };
+		B71DDA82206F70570015699E /* DiscoverViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B71DDA81206F70570015699E /* DiscoverViewController.storyboard */; };
+		B71DDA84206F71390015699E /* null.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B71DDA83206F71390015699E /* null.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +37,11 @@
 		B71DDA69206F3F160015699E /* DiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
 		B71DDA6B206F3F480015699E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		B71DDA71206F589B0015699E /* MainVCSettings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MainVCSettings.json; sourceTree = "<group>"; };
+		B71DDA7B206F701E0015699E /* HomeViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HomeViewController.storyboard; sourceTree = "<group>"; };
+		B71DDA7D206F70410015699E /* MessageViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MessageViewController.storyboard; sourceTree = "<group>"; };
+		B71DDA7F206F704B0015699E /* ProfileViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProfileViewController.storyboard; sourceTree = "<group>"; };
+		B71DDA81206F70570015699E /* DiscoverViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DiscoverViewController.storyboard; sourceTree = "<group>"; };
+		B71DDA83206F71390015699E /* null.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = null.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +99,7 @@
 		B71DDA5E206F3B6C0015699E /* Home(首页) */ = {
 			isa = PBXGroup;
 			children = (
+				B71DDA7B206F701E0015699E /* HomeViewController.storyboard */,
 				B71DDA6B206F3F480015699E /* HomeViewController.swift */,
 			);
 			path = "Home(首页)";
@@ -97,6 +108,7 @@
 		B71DDA5F206F3B6C0015699E /* Message(消息) */ = {
 			isa = PBXGroup;
 			children = (
+				B71DDA7D206F70410015699E /* MessageViewController.storyboard */,
 				B71DDA65206F3EF50015699E /* MessageViewController.swift */,
 			);
 			path = "Message(消息)";
@@ -105,6 +117,7 @@
 		B71DDA60206F3B6C0015699E /* Profile(我) */ = {
 			isa = PBXGroup;
 			children = (
+				B71DDA7F206F704B0015699E /* ProfileViewController.storyboard */,
 				B71DDA67206F3F060015699E /* ProfileViewController.swift */,
 			);
 			path = "Profile(我)";
@@ -113,6 +126,7 @@
 		B71DDA61206F3B6C0015699E /* Discover(发现) */ = {
 			isa = PBXGroup;
 			children = (
+				B71DDA81206F70570015699E /* DiscoverViewController.storyboard */,
 				B71DDA69206F3F160015699E /* DiscoverViewController.swift */,
 			);
 			path = "Discover(发现)";
@@ -131,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				B71DDA71206F589B0015699E /* MainVCSettings.json */,
+				B71DDA83206F71390015699E /* null.storyboard */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -195,8 +210,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B71DDA56206F3B510015699E /* LaunchScreen.storyboard in Resources */,
+				B71DDA80206F704B0015699E /* ProfileViewController.storyboard in Resources */,
+				B71DDA82206F70570015699E /* DiscoverViewController.storyboard in Resources */,
 				B71DDA53206F3B510015699E /* Assets.xcassets in Resources */,
 				B71DDA72206F589B0015699E /* MainVCSettings.json in Resources */,
+				B71DDA7C206F701E0015699E /* HomeViewController.storyboard in Resources */,
+				B71DDA84206F71390015699E /* null.storyboard in Resources */,
+				B71DDA7E206F70410015699E /* MessageViewController.storyboard in Resources */,
 				B71DDA51206F3B510015699E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
